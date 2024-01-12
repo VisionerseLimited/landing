@@ -57,7 +57,7 @@ export default function Navbar() {
             <div className="flex h-full w-fit items-center gap-x-2 md:hidden">
               <a
                 className="h-full"
-                href="https://app.skiff.com/signup?mail=&amp;d=e30%3D"
+                href="/signup"
               >
                 <span className="body-small ml-2 flex h-full cursor-pointer items-center rounded-xl px-3 bg-purple-500 font-medium text-white hover:opacity-[.8]">
                   Sign up
@@ -81,19 +81,19 @@ export default function Navbar() {
                   className="flex flex-col justify-center items-center"
                 >
                   <span
-                    className={`bg-white block transition-all duration-300 ease-out 
+                    className={`bg-white block transition-all duration-300 ease-out
                     h-0.5 w-6 rounded-sm ${
                       isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-0.5"
                     }`}
                   ></span>
                   <span
-                    className={`bg-white block transition-all duration-300 ease-out 
+                    className={`bg-white block transition-all duration-300 ease-out
                     h-0.5 w-6 rounded-sm my-1 ${
                       isOpen ? "opacity-0" : "opacity-100"
                     }`}
                   ></span>
                   <span
-                    className={`bg-white block transition-all duration-300 ease-out 
+                    className={`bg-white block transition-all duration-300 ease-out
                     h-0.5 w-6 rounded-sm ${
                       isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-0.5"
                     }`}
@@ -168,17 +168,16 @@ export default function Navbar() {
             <a
               className="hidden md:inline"
               rel="noopener, noreferrer"
-              target="true"
-              href="/download"
+              href="/cards"
             >
               <span className="body-small hidden h-full cursor-pointer items-center px-3 text-white hover:opacity-80 md:flex">
-                Download
+                Cards
               </span>
             </a>
             <a
               className="hidden h-full md:inline"
               target="_blank"
-              href="https://app.skiff.com/signup?mail=&amp;d=e30%3D"
+              href="/signup"
             >
               <span className="body-small ml-2 hidden h-full cursor-pointer items-center rounded-xl bg-purple-500 px-3 font-medium text-white hover:opacity-75 md:flex">
                 Sign up
@@ -254,11 +253,11 @@ export default function Navbar() {
               className="[&amp;>div]:last:border-none"
               rel="noopener, noreferrer"
               target=""
-              href="/download"
+              href="/cards"
             >
               <div className="box-border flex w-full items-center justify-between gap-x-[2px] border-t border-white/[0.06] px-4 py-3">
                 <span className="body-small flex h-full cursor-pointer items-center text-white hover:opacity-[.8]">
-                  Download
+                  Cards
                 </span>
               </div>
               <div className="h-full w-full "></div>
@@ -266,7 +265,7 @@ export default function Navbar() {
             <a
               className="[&amp;>div]:last:border-none"
               target="_blank"
-              href="https://app.skiff.com/signin?s=referer-header&amp;c=https%3A%2F%2Fwww.landingfolio.com%2F&amp;pt=2.0%3A+Privacy-first%2C+end-to-end+encrypted+email+%28with+color%29.&amp;agid=undefined&amp;aid=undefined&amp;gclid=undefined"
+              href="/signup"
             >
               <div className="box-border flex w-full items-center border-t border-white/[0.06] justify-between gap-x-[2px] px-4 py-3">
                 <span className="body-small flex h-full cursor-pointer items-center text-white hover:opacity-[.8]">
